@@ -489,8 +489,8 @@ class Menu extends Component {
 
     if (newWidth < minWidth) newWidth = minWidth;
 
-    el.style.width = `${newWidth}px`;
-    listEl.style.width = `${newWidth}px`;
+    el.style.width = `${elWidth}px`;
+    listEl.style.width = `${elWidth}px`;
   }
 
   render() {
